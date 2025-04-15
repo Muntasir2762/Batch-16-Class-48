@@ -26,3 +26,7 @@ INSERT INTO students (name, roll, class, phone, email, address) VALUES ('Rahim',
 $_GET
 $_POST
 
+SELECT * FROM students WHERE id = 8;
+
+UPDATE students SET name = 'Rakib', roll = 23, class = 'Nine', phone = '0374575', email = 'abc@gmail.com', address = 'Uttara, Dhaka' WHERE id = 3;
+
